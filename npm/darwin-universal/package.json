@@ -1,0 +1,15 @@
+{
+  "name": "node-tantivy-darwin-universal",
+  "version": "0.0.0",
+  "os": [
+    "darwin"
+  ],
+  "main": "node-tantivy.darwin-universal.node",
+  "files": [
+    "node-tantivy.darwin-universal.node"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  }
+}
