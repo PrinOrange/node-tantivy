@@ -25,10 +25,8 @@
   "license": "MIT",
   "devDependencies": {
     "@napi-rs/cli": "^2.17.0",
-    "ava": "^6.0.1"
-  },
-  "ava": {
-    "timeout": "3m"
+    "@types/jest": "^29.5.11",
+    "ts-jest": "^29.1.1"
   },
   "engines": {
     "node": ">= 10"
@@ -38,7 +36,7 @@
     "build": "napi build --platform --release",
     "build:debug": "napi build --platform",
     "prepublishOnly": "napi prepublish -t npm",
-    "test": "ava",
+    "test": "jest",
     "universal": "napi universal",
     "version": "napi version"
   },
